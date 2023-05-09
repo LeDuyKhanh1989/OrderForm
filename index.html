@@ -72,21 +72,57 @@
         <textarea name="Đoạn văn" id="Đoạn văn" cols="200" rows="5"></textarea>
        </div>
        <p> Please rate your level of agreement with the following statements.</p>
-       <table style="width: 100%;" id="TB3" style="border: 2px;">
+
+<!-- Khai báo bảng TB3 -->
+       <table style="width: 100%;" id="TB3" >
         <th class="TH" id="th1"></th>
         <th class="TH">Strong Disagree</th>
         <th class="TH">Disagree</th>
         <th class="TH">Agree</th>
         <th class="TH">Strong agree</th>
+        <tbody>
         <Tr>
-            <Td></Td>
+            <Td rowspan="2" class="rowspan">Our products are priced fairly.</Td>
             <td><input type="radio" name="selection3"></td>
             <td><input type="radio" name="selection3"></td>
             <td><input type="radio" name="selection3"></td>
             <td><input type="radio" name="selection3"></td>
         </Tr>
+        <tr>
+            <td><label for="1">1</label></td>
+            <td><label for="2">2</label></td>
+            <td><label for="3">3</label></td>
+            <td><label for="4">4</label></td>
+        </tr>
+        <Tr class="tr">
+            <Td rowspan="2" class="rowspan">Our products are high quality.</Td>
+            <td><input type="radio" name="selection3"></td>
+            <td><input type="radio" name="selection3"></td>
+            <td><input type="radio" name="selection3"></td>
+            <td><input type="radio" name="selection3"></td>
+        </Tr>
+        <tr class="tr">
+            <td><label for="1">1</label></td>
+            <td><label for="2">2</label></td>
+            <td><label for="3">3</label></td>
+            <td><label for="4">4</label></td>
+        </tr>
+        <Tr>
+            <Td rowspan="2" class="rowspan">You would recommend our product to a friend or coworker.</Td>
+            <td><input type="radio" name="selection3"></td>
+            <td><input type="radio" name="selection3"></td>
+            <td><input type="radio" name="selection3"></td>
+            <td><input type="radio" name="selection3"></td>
+        </Tr>
+        <tr>
+            <td><label for="1">1</label></td>
+            <td><label for="2">2</label></td>
+            <td><label for="3">3</label></td>
+            <td><label for="4">4</label></td>
+        </tr>
+        </tbody>
        </table>
-
+<input type="submit" value="Submit">
 
     </form>
 </body>

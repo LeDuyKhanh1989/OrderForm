@@ -3,19 +3,28 @@
     padding: 10px 10px 10px 20px;
 }
 form {
-    margin: 10px 30px 20px 100px;
+    padding: 10px 30px 20px 100px;
 }
 #th1 {
-    width: 30%;
+    width: 40%;
 }
 #TB3{
     text-align: center;
     align-items: center;
     align-content: center;
-    border: black;
-    border: 2px;
-
+    border-color: black;
+    border: 2 solid black;
 }
 .TH{
     background-color: rgb(187, 185, 187);
+    width: 15%;
+}
+#tb4{
+    border-color: black;
+}
+.tr{
+    background-color: aliceblue;
+}
+.rowspan{
+    text-align: left;
 }
