@@ -1,0 +1,24 @@
+table{
+    width: 800px;
+    height: 800px;
+    background-color: orange;
+    padding: 10px 80px 80px 10px;
+    align-items: center;
+    align-content: center;
+}
+.so{
+    font-size: 30px;
+text-align: butt;
+}
+.chu{
+    font-size: 30px;
+    text-align: right;
+}
+.trang{
+ background-color: white;
+ border: 1px solid black;
+}
+.den{
+    background-color: black;
+    border: 1px solid black;
+}
