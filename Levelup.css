@@ -1,0 +1,43 @@
+.day{
+    color: white;
+    background-color: rgb(2, 123, 139);
+    text-align: center;
+    padding: 20px;
+    font-size: 30;
+}
+.ngày{
+    text-align: center;
+    padding: 20px;
+    font-size: 30;
+    font-weight: 700;
+}
+#sun{
+    background-color: brown;
+
+}
+#sat{
+    background-color: blue;
+}
+#cn{
+    color: red;
+}
+#t7{
+    color: blue;
+}
+.bigsize{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 900;
+}
+.smallsize{
+    text-align: left;
+    font-size: 10px;
+    font-weight: 300;
+    padding: 10px 0 0 0;
+}
+#sunday{
+    color: red;
+}
+#saturday{
+    color: blue;
+}
