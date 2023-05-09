@@ -5,6 +5,8 @@ table{
     padding: 10px 80px 80px 10px;
     align-items: center;
     align-content: center;
+    border-collapse: collapse;
+    border:1px solid ;
 }
 .so{
     font-size: 30px;
