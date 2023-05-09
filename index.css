@@ -1,0 +1,21 @@
+.div3{
+    background-color: beige;
+    padding: 10px 10px 10px 20px;
+}
+form {
+    margin: 10px 30px 20px 100px;
+}
+#th1 {
+    width: 30%;
+}
+#TB3{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border: black;
+    border: 2px;
+
+}
+.TH{
+    background-color: rgb(187, 185, 187);
+}
